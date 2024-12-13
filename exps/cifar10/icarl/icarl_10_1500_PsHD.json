@@ -1,0 +1,32 @@
+{
+    "prefix": "uloss1_copymaster_topoloss1_01_MS5300_MU1700",
+    "dataset": "cifar10",
+    "memory_size":2000,
+    "memory_per_class": 200,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 2,
+    "increment": 2,
+    "model_name": "icarl",
+    "convnet_type": "resnet32",
+    "device": ["4","4"], 
+    "seed": [1993],
+    "label_size": 10,
+    "label_num": "1500",
+    "kd_onlylabel": false,
+    "usp_weight": 1,
+    "match_weight": 0.0,
+    "rw_T":2,
+    "insert_pse_progressive": true,
+    "insert_pse": "logitstic",
+    "memory_size_supervise": 300,
+    "memory_size_unsupervise": 1700,
+    "batch_size":128,
+    "labeled_batch_size":64,
+    "topo_weight": 1.0,
+    "toposimpl_dim": [0,1],
+    "embed_type": "logits",
+    "save_resume_name": "./checkpoints/uloss1.0_cifar10_icarl_2_2_200_1500_0_91.6.pkl"
+
+}
+

@@ -1,0 +1,30 @@
+{
+    "prefix": "uloss1_copymaster_matchloss0.5_MS500_MU1500",
+    "dataset": "cifar10",
+    "memory_size":2000,
+    "memory_per_class": 200,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "der",
+    "convnet_type": "resnet32",
+    "device": ["0","0"], 
+    "seed": [1993],
+    "label_size": 100,
+    "label_num": "2000",
+    "kd_onlylabel": false,
+    "usp_weight": 1,
+    "match_weight": 0.0,
+    "rw_T":2,
+    "insert_pse_progressive": false,
+    "insert_pse": "logitstic",
+    "pse_weight": 0, 
+    "memory_size_supervise": 500,
+    "memory_size_unsupervise": 1500,
+    "batch_size":128,
+    "labeled_batch_size":64,
+    "save_resume_name": "./checkpoints/uloss1.0_cifar10_der_2_2_200_1500_0_89.9.pkl"
+
+}
+
