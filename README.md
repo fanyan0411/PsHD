@@ -13,7 +13,7 @@
 
 </div>
 
-Official PyTorch implementation of our AAAI 2024 paper "[Persistence Homology Distillation for Semi-supervised Continual Learning](https://openreview.net/pdf?id=qInb7EUmxz)". 
+Official PyTorch implementation of our NeurIPS 2024 paper "[Persistence Homology Distillation for Semi-supervised Continual Learning](https://openreview.net/pdf?id=qInb7EUmxz)". 
 
 ## How to run DSGD?
 
