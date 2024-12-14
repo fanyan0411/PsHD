@@ -1,7 +1,7 @@
 <div align="center">
   
   <div>
-  <h1>Dynamic Sub-graph Distillation for Robust Semi-supervised Continual Learning</h1>
+  <h1>Persistence Homology Distillation for Semi-supervised Continual Learning</h1>
   </div>
 
   <div>
@@ -15,7 +15,7 @@
 
 Official PyTorch implementation of our NeurIPS 2024 paper "[Persistence Homology Distillation for Semi-supervised Continual Learning](https://openreview.net/pdf?id=qInb7EUmxz)". 
 
-## How to run DSGD?
+## How to run PsHD?
 
 
 ### Dependencies
